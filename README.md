@@ -1,5 +1,5 @@
 <h1>Water Plant Game</h1>
-<a href = "https://rawgit.com/sstroink/Water-Plant-Game/master/Water%20-Plant%20-Game/start.html">Check it out </a>
+<a href = "https://rawgit.com/sstroink/Water-Plant-Game/master/start.html">Check it out </a>
 <h3>Plant watering game using CSS and HTML</h3>
 <ul>
   <li>Click on the plants to make them "grow"</li>
