@@ -1,0 +1,122 @@
+/* GENERAL STYLES
+- - - - - - - - - - - - - - - - - - - - - */
+body {
+  background: #ecf0f1;
+  background-image: url(../img/Cactus+Background.png);
+  text-align: center;
+/*  font-family: 'Quicksand', sans-serif;*/
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+
+
+}
+
+
+/* TYPOGRAPHY STYLES
+- - - - - - - - - - - - - - - - - - - - - */
+h1 strong {
+  display:block;
+  font-family: 'Amatic SC', cursive;
+  font-size: 90px;
+  font-weight: normal;
+  color: rgb(0, 204, 102);
+  text-shadow: 2px 2px black;
+ 
+}
+
+p {
+  text-align: center;
+}
+
+
+/* TARGET SECTION STYLES 
+- - - - - - - - - - - - - - - - - - - - - */
+form {
+  animation-name: move;
+  animation-duration: 20s; /* Speed of Game */
+  animation-delay: 1s;
+  animation-timing-function: linear;
+}
+
+label {
+  background: white;
+}
+
+/*WATERING CAN CURSOR ON HOVER OF PLANTS*/
+label:hover {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=9173), default;
+}
+
+input:checked + label {
+  transform: scale(1.5);
+}
+
+
+/* INDIVIDUAL PLANT STYLES
+- - - - - - - - - - - - - - - - - - - - - */
+label:first-of-type {
+  width: 140px;
+  padding-bottom: 140px;
+  background: url(../img/cactus1.png);
+  background-size: cover;
+  left: 0;
+}
+
+label:nth-of-type(2) {
+  width: 180px;
+  padding-bottom: 180px;
+  background: url(../img/plant3.png);
+  background-size: cover;
+  left: 10%;
+}
+
+label:nth-of-type(3){
+  width: 180px;
+  padding-bottom: 140px;
+  background: url(../img/cactus2.png);
+  background-size: cover;
+  left: 20%;
+}
+
+label:nth-of-type(4) {
+  width: 180px;
+  padding-bottom: 180px;
+  background: url(../img/cactus3.png);
+  background-size: cover;
+  left: 30%;
+}
+
+label:nth-of-type(5) {
+  width: 180px;
+  padding-bottom: 100px;
+  background: url(../img/plant1.png);
+  background-size: cover; 
+  left: 40%;
+}
+
+label:nth-of-type(6) {
+  width: 180px;
+  padding-bottom: 180px;
+  background: url(../img/plants2.png);
+  background-size: cover;
+  left: 50%;
+}
+
+label:nth-of-type(7) {
+  width: 180px;
+  padding-bottom: 180px;
+  background: url(../img/cactus1.png);
+  background-size: cover;
+  left: 60%;
+}
+
+
+/* CSS ANIMATION KEYFRAME TO MOVE TARGETS
+- - - - - - - - - - - - - - - - - - - - - */
+@keyframes move {
+  to {
+      transform: translateX(-100%);
+  }
+}
